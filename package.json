@@ -1,0 +1,27 @@
+{
+  "name": "mancjs-caddy",
+  "version": "0.0.1",
+  "description": "level-up your MancJS code golf with automated testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-medland/mancjs-caddy.git"
+  },
+  "keywords": [
+    "MancJS",
+    "Code",
+    "Golf"
+  ],
+  "author": "John Medland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-medland/mancjs-caddy/issues"
+  },
+  "homepage": "https://github.com/j-medland/mancjs-caddy#readme",
+  "dependencies": {
+    "deep-equal": "^1.0.1"
+  }
+}
