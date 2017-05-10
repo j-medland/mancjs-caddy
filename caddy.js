@@ -1,17 +1,20 @@
 const fork = require('child_process').fork
+const chokidar = require('chokidar')
 
 module.exports = (path) => {
   // create a watchdog for misbehaving scripts
   let watchdog = null
+  let defined = obj => typeof ob !== 'undefined'
   // create a child process to run script
   let gopher = fork('./gopher')
   // listen for messages from child
   gopher.on('message', msg => {
-
-    if (typeof msg.error !== 'undefined'){
-      console.log(msg.error)
+    if (defined(msg.error)) {
+      // some error
+    } else if (defined(msg.play)) {
+      console.log(msg.play)
     }
-    console.log(msg.play)
+
     gopher.kill()
   })
 
