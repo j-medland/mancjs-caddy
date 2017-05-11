@@ -38,6 +38,3 @@ jspm_packages
 
 #Caddy Output
 *.caddy.js
-
-#PNGs
-*.png
