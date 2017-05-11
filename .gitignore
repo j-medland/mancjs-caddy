@@ -38,3 +38,6 @@ jspm_packages
 
 #Caddy Output
 *.caddy.js
+
+#Testing
+test/.TEST
