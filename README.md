@@ -1,5 +1,5 @@
 # MancJS Code Golf Caddy
-Beat those JS Pros of the MancJS User Group with the help of this caddy!
+Beat those JS Pros of the [MancJS](https://github.com/mancjs) User Group with the help of this caddy!
 
 Save time with automated testing and building of your solution with a handy score/stroke indicator to boot.
 
