@@ -1,6 +1,6 @@
 {
   "name": "mancjs-caddy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "level-up your MancJS code golf with automated testing",
   "main": ".lib/caddy.js",
   "bin": {
